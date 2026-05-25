@@ -1,0 +1,45 @@
+{
+  "name": "tailwind-table",
+  "version": "1.5.7",
+  "description": "CLI to scaffold projects using templates",
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "todo",
+    "tailwind-todo",
+    "boilerplate",
+    "scaffold",
+    "starter",
+    "template",
+    "cli"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.0.14"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "bin": {
+    "tailwind-table": "./bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "homepage": "https://keshavsoft.github.io/tailwind-table/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keshavsoft/tailwind-table.git"
+  },
+  "bugs": {
+    "url": "https://github.com/keshavsoft/tailwind-table/issues"
+  }
+}
